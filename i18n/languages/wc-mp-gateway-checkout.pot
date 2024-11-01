@@ -1,0 +1,240 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Mercadopago Gateway Checkout\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-17 23:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.3"
+
+#: woo-mercadopago-gateway-checkout.php:44
+#, php-format
+msgid "<strong>%s/strong> Requires at least %s version %s or greater."
+msgstr ""
+
+#: woo-mercadopago-gateway-checkout.php:51
+#, php-format
+msgid "WooCommerce must be active before using <strong>%s</strong>"
+msgstr ""
+
+#: woo-mercadopago-gateway-checkout.php:138
+msgid "Settings"
+msgstr ""
+
+#: Gateway/IPNProcessor.php:118 Gateway/WC_MP_Gateway.php:211
+#, php-format
+msgid "Mercadopago Gateway - Payment: %s was approved."
+msgstr ""
+
+#: Gateway/IPNProcessor.php:125 Gateway/WC_MP_Gateway.php:217
+#, php-format
+msgid "Mercadopago Gateway - Payment: %s is pending."
+msgstr ""
+
+#: Gateway/IPNProcessor.php:134 Gateway/WC_MP_Gateway.php:224
+#, php-format
+msgid "Mercadopago Gateway - Payment: %s was rejected. Reason: %s."
+msgstr ""
+
+#: Gateway/WC_MP_Gateway.php:48
+msgid "Let your customers pay with MercadoPago Gateway"
+msgstr ""
+
+#: Gateway/WC_MP_Gateway.php:80
+msgid "This controls the title which the customer sees during checkout."
+msgstr ""
+
+#: Gateway/WC_MP_Gateway.php:81
+msgid "MercadoPago"
+msgstr ""
+
+#: Gateway/WC_MP_Gateway.php:84
+msgid "Message in checkout"
+msgstr ""
+
+#: Gateway/WC_MP_Gateway.php:86
+msgid ""
+"Set your custom message to be shown in the checkout when the customer "
+"selects this payment method. Can be empty"
+msgstr ""
+
+#: Gateway/WC_MP_Gateway.php:87
+msgid "Pay with Mercadopago, up to 12 installments with all credit cards"
+msgstr ""
+
+#: Gateway/WC_MP_Gateway.php:106
+msgid "Please check your card details before proceeding"
+msgstr ""
+
+#: Gateway/WC_MP_Gateway.php:187 Gateway/WC_MP_Gateway.php:251
+msgid "There was an error in the payment, please try again"
+msgstr ""
+
+#: Gateway/WC_MP_Gateway.php:264
+msgid "Check your credit card number"
+msgstr ""
+
+#: Gateway/WC_MP_Gateway.php:265
+msgid "Check your credit card expiry date"
+msgstr ""
+
+#: Gateway/WC_MP_Gateway.php:266
+msgid "Check your credit card details"
+msgstr ""
+
+#: Gateway/WC_MP_Gateway.php:267
+msgid "Check your credit card security code"
+msgstr ""
+
+#: Gateway/WC_MP_Gateway.php:268 Gateway/WC_MP_Gateway.php:271
+msgid "We could not process your payment. Please use another card"
+msgstr ""
+
+#: Gateway/WC_MP_Gateway.php:269
+msgid ""
+"You must authorize this payment with your credit card issuer. The phone "
+"number is in the back of your card"
+msgstr ""
+
+#: Gateway/WC_MP_Gateway.php:270
+msgid ""
+"Call your credit card issuer to activate your card. The phone number is in "
+"the back of your card"
+msgstr ""
+
+#: Gateway/WC_MP_Gateway.php:272
+msgid ""
+"You already made a payment for this quantity, if you still need to pay, "
+"please use another credit card"
+msgstr ""
+
+#: Gateway/WC_MP_Gateway.php:273
+msgid "Your payment was rejected. Please use another credit card"
+msgstr ""
+
+#: Gateway/WC_MP_Gateway.php:274
+msgid "Your credit card doesn't have enough funds to process this payment"
+msgstr ""
+
+#: Gateway/WC_MP_Gateway.php:275
+msgid "Your credit card doesn't process installments"
+msgstr ""
+
+#: Gateway/WC_MP_Gateway.php:276
+msgid ""
+"You've reached the limit of payment attempts. Please use another credit card"
+msgstr ""
+
+#: Gateway/WC_MP_Gateway.php:277
+msgid "We could not process your payment. Please try again"
+msgstr ""
+
+#: Settings/Main.php:106
+msgid "Settings saved"
+msgstr ""
+
+#: Settings/Main.php:118
+msgid "Save"
+msgstr ""
+
+#: Settings/Sections/FrontendSection.php:19
+msgid "Checkout Configuration"
+msgstr ""
+
+#: Settings/Sections/FrontendSection.php:32
+msgid "Card Size"
+msgstr ""
+
+#: Settings/Sections/FrontendSection.php:37
+msgid ""
+"If the card doesn't show properly in your checkout, you can adjust its size "
+"here"
+msgstr ""
+
+#: Settings/Sections/MpSection.php:19
+msgid "MercadoPago Configuration"
+msgstr ""
+
+#: Settings/Sections/MpSection.php:36
+msgid "Your MercadoPago Public Key"
+msgstr ""
+
+#: Settings/Sections/MpSection.php:42
+msgid "Your MercadoPago Access Token"
+msgstr ""
+
+#: Settings/Sections/MpSection.php:45
+msgid "Set MercadoPago in binary mode"
+msgstr ""
+
+#: Settings/Sections/MpSection.php:48
+msgid ""
+"When this is activated, the payment goes approved or failed, it can't go to "
+"the pending state"
+msgstr ""
+
+#: Settings/Sections/MpSection.php:53
+msgid "Store prefix"
+msgstr ""
+
+#: Settings/Sections/MpSection.php:56
+msgid "This is the prefix of the order receipt that your customers will see"
+msgstr ""
+
+#: Settings/Sections/MpSection.php:60
+msgid "Sponsor ID (Optional)"
+msgstr ""
+
+#: Settings/Sections/MpSection.php:63
+msgid "If you have a MercadoPago Sponsor ID, use it here. Or leave it blank."
+msgstr ""
+
+#: Settings/Sections/MpSection.php:67
+msgid "Status when the payment is approved"
+msgstr ""
+
+#: Settings/Sections/MpSection.php:70
+msgid "This is the status the order will have when the payment is approved"
+msgstr ""
+
+#: Settings/Sections/MpSection.php:75
+msgid "Status when the payment is in process"
+msgstr ""
+
+#: Settings/Sections/MpSection.php:78
+msgid "This is the status the order will have when the payment is in process"
+msgstr ""
+
+#: Settings/Sections/MpSection.php:83
+msgid "Status when the payment is rejected"
+msgstr ""
+
+#: Settings/Sections/MpSection.php:86
+msgid "This is the status the order will have when the payment is rejected"
+msgstr ""
+
+#. Name of the plugin
+msgid "Checkout Gateway for Mercadopago and WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Integration between Mercadopago Gateway and WooCommerce, using custom "
+"checkout."
+msgstr ""
+
+#. Author of the plugin
+msgid "CRPlugins"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://github.com/macr1408"
+msgstr ""
